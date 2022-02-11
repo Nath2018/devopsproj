@@ -4,7 +4,8 @@ resource "aws_vpc" "main" {
 
   tags = {
     Name = "demo-vpc"
-    Purpose = "myfirstiac"
+    Purpose = "my1stiac"
+    when = "today"
     
   }
 }
